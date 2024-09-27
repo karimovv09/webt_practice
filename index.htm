@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bootstrap Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('bmw.png'); background-size: cover; color: white;">
+        <div class="container text-center">
+            <h1 class="display-4">Welcome to BMW Website</h1>
+            <p class="lead">Sheer Driving Pleasure.</p>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Our Car Models</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bmw_grancoupe.png" class="card-img-top" alt="model 1">
+                    <div class="card-body">
+                        <h5 class="card-title">BMW M8 Gran Coupe</h5>
+                        <p class="card-text">The BMW 8 Series Gran Coupe M cars let you experience the luxury of a four-door car combined with adrenaline-pumping sportiness.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bmw_x7.png" class="card-img-top" alt="model 2">
+                    <div class="card-body">
+                        <h5 class="card-title">BMW X7</h5>
+                        <p class="card-text">The new BMW X7 xDrive40i captivates at first glance with its combination of uncompromising power, luxury, comfort and expressive design.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bmw_z4roadster.png" class="card-img-top" alt="model 3">
+                    <div class="card-body">
+                        <h5 class="card-title">BMW Z4 Roadster</h5>
+                        <p class="card-text">The BMW Z4 combines the dynamics of a sports car with the feeling of freedom that comes with a roadster.</p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Register</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm your password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+
+</body>
+</html>
